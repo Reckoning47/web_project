@@ -1,0 +1,12 @@
+body{
+	
+	background-color: white;
+	
+}
+
+#logo {
+    height: 50px;
+    width: 150px;
+    padding-top: 50px;
+    z-index: 999;
+}
