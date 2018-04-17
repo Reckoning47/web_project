@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-Chris_Cooper_James_Karinen",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
