@@ -1,6 +1,11 @@
+.clear {
+	clear: both;
+}
+
 html, body {
     margin: 0;
     padding: 0;
+	font-family: verdana;
 }
 
 #logo {
@@ -10,15 +15,18 @@ html, body {
 }
 
 
-ul {
+#nav {
     margin: 0;
     padding: 0;
     list-style-type: none;
     overflow: hidden;
     background-color: #333;
+	
+	border-top:	2px solid #c10560;
+	border-bottom: 2px solid #c10560;
 }
 
-li a {
+li a{
     display: block;
     float: left;
     width: 128px;
@@ -32,14 +40,10 @@ li a {
     font-family: verdana;
 }
 
-li a.navRight {
-    float: right;
-}
-
 li a:hover {
     background-color: #111;
 }
 
-li a.active {
-    background-color: #CE0767;
+li a.current, a.current:hover {
+	background-color: #CE0767;
 }

@@ -1,0 +1,75 @@
+h1 {
+	padding-left: 15px;
+	font-size: 26px;
+	font-weight: normal;
+}
+
+div.panelLeft {
+	float: left;
+	width: 70%;
+	height: 250px;
+	padding: 20px 20px 20px 20px;
+	box-sizing: border-box;
+	
+	border-top: 1px solid #333;
+	
+}
+
+div.thumbnail {
+	float: left;
+	
+}
+
+div.productname {
+	margin-left: 220px;
+	
+	font-size: 20px;
+}
+
+div.productdesc {
+	margin-left: 220px;
+	
+	font-size: 16px;
+	color: grey;
+	
+}
+
+
+
+div.panelRight {
+	float: right;
+	width: 30%;
+	height: 600px;
+	padding: 20px 20px 20px 20px;
+	box-sizing: border-box;
+	/*
+	border: 2px solid #CE0767;
+	border-radius: 10px;
+	*/
+}
+
+div.checkoutbutton {
+	width: 130px;
+	height: 40px;
+	margin: auto;
+	box-sizing: border-box;
+	
+	text-align: center;
+	line-height: 40px;
+	
+	border: 1px solid #333;
+	border-radius: 5px;
+	background-color: #F0C353;
+	
+	font-size: 16px;
+	color: black;
+
+}
+div.checkoutbutton:hover {
+    background-color: #ff6a00;
+}
+
+div.orderdesc {
+	height: 515px;
+	font-size: 14px;
+}
