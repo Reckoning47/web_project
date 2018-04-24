@@ -61,12 +61,16 @@ div.checkoutbutton {
 	border-radius: 5px;
 	background-color: #F0C353;
 	
-	font-size: 16px;
-	color: black;
-
 }
+
 div.checkoutbutton:hover {
     background-color: #ff6a00;
+}
+
+a {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
 }
 
 div.orderdesc {

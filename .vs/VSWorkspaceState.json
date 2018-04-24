@@ -3,7 +3,9 @@
     "",
     "\\css",
     "\\html",
-    "\\images"
+    "\\images",
+    "\\scripts"
   ],
+  "SelectedNode": "\\images\\sale.jpg",
   "PreviewInSolutionExplorer": false
 }
