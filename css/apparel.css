@@ -1,3 +1,38 @@
 html {
-	height: 101%;
+    height: 101%;
+}
+
+.clear {
+    clear: both;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cabin, Verdana;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+}
+
+div.span {
+    column-count: 4;
+    float: left;
+    width: 100%;
+    height: 250px;
+    font-family: Cabin, Verdana;
+}
+
+.columnElement {
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+
+.productname {
+    font-size: 22px;
+}
+
+.productdesc {
+    font-size: 18px;
+    color: grey;
 }
